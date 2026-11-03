@@ -288,7 +288,7 @@ p + p { margin-top: 0.8em; }
 
 /* ---------- footer ---------- */
 .foot { background: var(--surface); padding: 48px var(--m) 32px; }
-.foot-name { font-size: 22vw; font-weight: 800; letter-spacing: -0.05em; line-height: .82; margin-left: -.04em; }
+.foot-name { font-size: var(--step-head); font-weight: 800; letter-spacing: -0.035em; line-height: 1; }
 .foot-row { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: var(--m); margin-top: 72px; }
 .foot-mail { grid-column: 1 / 6; font-size: var(--step-lead); font-weight: 800; text-underline-offset: 4px; }
 .foot-nav { grid-column: 7 / 13; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px var(--m); font-size: var(--step-small); }
