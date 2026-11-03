@@ -121,24 +121,21 @@
     </div>
   </div>
 
-  <div class="trip-media">
+  <div class="trip-grid">
     <figure class="trip-video" data-rise>
       <video src="assets/synctrip-demo.mp4" poster="assets/synctrip-timeline.png" muted loop playsinline controls preload="metadata" aria-label="SyncTrip 시연 영상"></video>
       <figcaption>NewbieThon 최종 제출 시연 영상</figcaption>
     </figure>
     <figure class="trip-shot" data-rise>
-      <img src="assets/synctrip-vote.jpg" width="600" height="840" alt="SyncTrip 투표 화면: 최소 시간 일정의 이동 시간 6시간 7분, 장소 12곳과 9월 28일 시간표" loading="lazy" decoding="async">
-      <figcaption>같은 후보로 만든 두 안 중 하나에 투표하는 화면</figcaption>
+      <img src="assets/synctrip-confirmed.png" width="382" height="737" alt="SyncTrip 확정 화면: 5명 중 5명 투표로 최소 시간 일정 확정, 이동 1시간 17분, 요금 7,000원, 서울역에서 경복궁·광장시장·익선동·북촌한옥마을을 도는 11월 3일 시간표" loading="lazy" decoding="async">
+      <figcaption>투표로 확정된 일정 화면</figcaption>
     </figure>
-  </div>
-
-  <div class="proj-cols">
-    <div data-rise>
+    <div class="trip-problem" data-rise>
       <h3>풀려던 문제</h3>
       <p>단톡방에는 장소 링크만 쌓이고, 의견을 모아 일정을 확정하기 어렵습니다. 기존 여행 앱은 거리순 정렬만 해서 “18시 식당 예약”, “17시 미술관 마감” 같은 시간 제약을 반영하지 못하고, 대중교통 노선은 따로 찾아야 했습니다.</p>
       <p>대상은 MT나 우정 여행을 기획하는 대학생·2030 그룹입니다.</p>
     </div>
-    <div data-rise>
+    <div class="trip-can" data-rise>
       <h3>할 수 있는 것</h3>
       <ul class="plain">
         <li>로그인 없이 방을 만들고 입장, 1명부터 12명까지</li>
@@ -149,7 +146,7 @@
         <li>멤버의 변경이 실시간으로 바로 반영</li>
       </ul>
     </div>
-    <div data-rise>
+    <div class="trip-track" data-rise>
       <h3>Two-Track 경로 계산</h3>
       <p>투표는 Borda 방식으로 점수를 매겨 방문 후보를 고르고, 날짜별로 나눕니다. Track 1은 API 호출 없이 거리와 속도로 가능한 모든 방문 순서를 시뮬레이션해 영업시간과 예약을 지키는 후보만 남깁니다. Track 2는 남은 후보에만 카카오 모빌리티와 ODsay를 불러 실제 이동 시간과 요금으로 다시 검증합니다. 일정이 충돌하면 어디서, 왜 충돌하는지 짚어 줍니다.</p>
       <p class="meta">React · Vite · React Router · dnd-kit · Python · FastAPI · Supabase · 카카오 로컬 · Google Places · ODsay · 카카오 모빌리티 · Vercel · Render · Docker</p>
@@ -272,11 +269,13 @@
     <div class="band-track">
       <span>NewbieThon 2026 은상</span><i></i><span>SyncTrip</span><i></i><span>팀장 · 프론트엔드</span><i></i>
       <span>NewbieThon 2026 은상</span><i></i><span>SyncTrip</span><i></i><span>팀장 · 프론트엔드</span><i></i>
+      <span>NewbieThon 2026 은상</span><i></i><span>SyncTrip</span><i></i><span>팀장 · 프론트엔드</span><i></i>
+      <span>NewbieThon 2026 은상</span><i></i><span>SyncTrip</span><i></i><span>팀장 · 프론트엔드</span><i></i>
     </div>
   </div>
   <div class="award-row">
     <h2 id="award-h" class="lead-h">수상</h2>
-    <p data-rise><time datetime="2026-09-28">2026.09.28</time> 2026 고려대학교 정보대학 NewbieThon 은상. SyncTrip으로 받았고, 팀장과 프론트엔드를 맡았습니다.</p>
+    <p data-rise><time datetime="2026-09-28">2026.09.28</time> 고려대학교 정보대학 NewbieThon 은상</p>
   </div>
 </section>
 
